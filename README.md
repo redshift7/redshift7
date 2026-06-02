@@ -32,7 +32,7 @@ Now charting the Grand Line of a **M.S. in Business Analytics at the University 
 </tr>
 </table>
 
-🧭 **West Haven, CT** (open to relocation) &nbsp;•&nbsp; 🎯 Streaming, ETL, Big Data, Cloud &nbsp;•&nbsp; 🏴‍☠️ Open to opportunities
+🧭 **New York, NY** (open to relocation) &nbsp;•&nbsp; 🎯 Streaming, ETL, Big Data, Cloud &nbsp;•&nbsp; 🏴‍☠️ Open to opportunities
 
 ## 🗺️ the voyage so far
 
@@ -109,8 +109,8 @@ stream = (spark.readStream
 
 <div align="center">
 
-![Sathvik's GitHub stats](https://github-readme-stats.vercel.app/api?username=redshift7&show_icons=true&hide_border=true&bg_color=0a1a2e&title_color=fbbf24&icon_color=4ecdc4&text_color=fff8e7&ring_color=ef4444)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=redshift7&layout=compact&hide_border=true&bg_color=0a1a2e&title_color=fbbf24&text_color=fff8e7)
+![Sathvik's GitHub stats](https://github-readme-stats.vercel.app/api?username=redshift7&show_icons=true&hide_border=true&bg_color=fff8e7&title_color=d97706&icon_color=0891b2&text_color=1c2540&ring_color=ef4444)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=redshift7&layout=compact&hide_border=true&bg_color=fff8e7&title_color=d97706&text_color=1c2540)
 
 </div>
 
