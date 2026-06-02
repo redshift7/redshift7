@@ -109,8 +109,9 @@ stream = (spark.readStream
 
 <div align="center">
 
-![Sathvik's GitHub stats](https://github-readme-stats.vercel.app/api?username=redshift7&show_icons=true&hide_border=true&bg_color=fff8e7&title_color=d97706&icon_color=0891b2&text_color=1c2540&ring_color=ef4444)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=redshift7&layout=compact&hide_border=true&bg_color=fff8e7&title_color=d97706&text_color=1c2540)
+[![Followers](https://img.shields.io/github/followers/redshift7?style=for-the-badge&logo=github&logoColor=fff8e7&label=Followers&labelColor=0a1a2e&color=fbbf24)](https://github.com/redshift7?tab=followers)
+[![Profile views](https://komarev.com/ghpvc/?username=redshift7&style=for-the-badge&label=Profile+views&color=ef4444)](https://github.com/redshift7)
+[![Website](https://img.shields.io/badge/Portfolio-sathvikkasoju.com-0891b2?style=for-the-badge&logo=safari&logoColor=fff8e7&labelColor=0a1a2e)](https://sathvikkasoju.com)
 
 </div>
 
