@@ -15,11 +15,22 @@
 
 ## ⚓ the captain
 
+<table>
+<tr>
+<td width="210" valign="top" align="center">
+<img src="assets/avatar-gold.png" alt="Sathvik avatar" width="180" />
+</td>
+<td valign="top">
+
 Data Engineer with **4+ years** turning streams of messy, real world data into reliable systems that businesses can trust. For four years I built streaming and batch pipelines at **Jio Platforms**, powering inventory and recommendation experiences for tens of thousands of retail stores.
 
 Now charting the Grand Line of a **M.S. in Business Analytics at the University of New Haven**, leveling up on forecasting, ML, and BI, and looking for the next crew where I can ship streaming infrastructure that actually moves the needle.
 
 > *Engineering data at the speed of business.*
+
+</td>
+</tr>
+</table>
 
 🧭 **West Haven, CT** (open to relocation) &nbsp;•&nbsp; 🎯 Streaming, ETL, Big Data, Cloud &nbsp;•&nbsp; 🏴‍☠️ Open to opportunities
 
