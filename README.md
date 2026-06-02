@@ -1,45 +1,110 @@
-# Hi, I'm Sathvik Kasoju
+<!-- Banner: red to amber to gold gradient wave, matching sathvikkasoju.com -->
+<div align="center">
 
-**Data and Big Data Engineer** building reliable, high throughput pipelines and the analytics on top of them.
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:ef4444,50:f59e0b,100:fbbf24&height=220&section=header&text=Sathvik%20Kasoju&fontColor=fff8e7&fontSize=52&desc=I%20build%20real%20time%20data%20systems%20at%20scale&descSize=18&descAlignY=60&fontAlignY=38)
 
-Currently finishing my **M.S. in Business Analytics at the University of New Haven** (May 2026), after four years shipping production data platforms at **Jio Platforms** in Mumbai.
+`✦ Open to new adventures ✦`
 
----
+[![Website](https://img.shields.io/badge/sathvikkasoju.com-0a1a2e?style=for-the-badge&logo=safari&logoColor=fbbf24)](https://sathvikkasoju.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0a1a2e?style=for-the-badge&logo=linkedin&logoColor=4ecdc4)](https://linkedin.com/in/sathvikkasoju)
+[![Email](https://img.shields.io/badge/Email-0a1a2e?style=for-the-badge&logo=gmail&logoColor=ef4444)](mailto:sathvikkasoju@gmail.com)
 
-### What I do
+</div>
 
-* Design and operate large scale data pipelines: real time ingestion, modeling, and serving.
-* Built a retail inventory sync platform processing **50M+ records per day** across **10,000+ store locations** for brands including 7 Eleven, JioMart, AJIO, and Marks and Spencer.
-* Re modeled data marts on **Apache Iceberg** to replace legacy SCD logic, cutting reporting time by roughly **2.5x**.
-* Tuned **Kafka** for about **1.7x lower latency**, and led a team of five plus engineers.
+## ⚓ the captain
 
-### Tech I work with
+Data Engineer with **4+ years** turning streams of messy, real world data into reliable systems that businesses can trust. For four years I built streaming and batch pipelines at **Jio Platforms**, powering inventory and recommendation experiences for tens of thousands of retail stores.
 
-**Languages:** Python, SQL, Scala, Java
+Now charting the Grand Line of a **M.S. in Business Analytics at the University of New Haven**, leveling up on forecasting, ML, and BI, and looking for the next crew where I can ship streaming infrastructure that actually moves the needle.
 
-**Data and streaming:** PySpark, Spark, Flink, Kafka, Apache Iceberg, Hive, HDFS, NiFi
+> *Engineering data at the speed of business.*
 
-**Modeling and transform:** dbt, dimensional and star schema modeling, SCD, window functions, CTEs, query optimization
+🧭 **West Haven, CT** (open to relocation) &nbsp;•&nbsp; 🎯 Streaming, ETL, Big Data, Cloud &nbsp;•&nbsp; 🏴‍☠️ Open to opportunities
 
-**Orchestration:** Airflow, NiFi, cron
+## 🗺️ the voyage so far
 
-**Stores:** PostgreSQL, Snowflake, SQL Server, MongoDB, AWS S3
+```python
+# stream-pipeline.py
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import *
 
-**Testing and workflow:** pytest, dbt tests, Git, code review
+spark = SparkSession.builder \
+    .appName("inventory-sync") \
+    .getOrCreate()
 
-### Recent projects
+stream = (spark.readStream
+    .format("kafka")
+    .option("subscribe", "retail.inventory")
+    .load())
+
+# 50M+ records / day across 10K+ stores
+(stream
+    .select(from_json(col("value"), schema).alias("d"))
+    .writeStream
+    .format("iceberg")
+    .outputMode("append")
+    .start())
+```
+
+<div align="center">
+
+**4+** Years building data systems &nbsp;•&nbsp; **50M+** Daily records processed &nbsp;•&nbsp; **10K+** Retail locations synced &nbsp;•&nbsp; **60%** Faster reporting with Iceberg
+
+</div>
+
+**Software Developer (Big Data)** · Jio Platforms Ltd. · Aug 2020 to Aug 2024 · Mumbai
+
+* Engineered scalable Spark and Flink ETL pipelines processing **50M+ daily inventory records** for 7 Eleven, JioMart, AJIO, and Marks & Spencer, syncing real time stock across **10,000+ store locations**.
+* Cut data processing latency by **40%** by optimizing Kafka streaming architecture and parallel processing for high volume retail data.
+* Integrated **Apache Iceberg** into the HDP ecosystem, replacing legacy SCD logic and improving data mart reporting speeds by **60%** for JioMart and AJIO.
+* Built product recommendation pipelines with **PySpark ML**, increasing user engagement by **25%**.
+* Led cross functional teams of **5+ engineers**, mentoring juniors and managing sprint deliverables.
+
+## 🧰 the arsenal
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-f59e0b?style=for-the-badge&logo=python&logoColor=fff8e7)
+![SQL](https://img.shields.io/badge/SQL-f59e0b?style=for-the-badge&logo=postgresql&logoColor=fff8e7)
+![Scala](https://img.shields.io/badge/Scala-f59e0b?style=for-the-badge&logo=scala&logoColor=fff8e7)
+![Java](https://img.shields.io/badge/Java-f59e0b?style=for-the-badge&logo=openjdk&logoColor=fff8e7)
+
+**Data & Streaming**
+
+![Spark](https://img.shields.io/badge/Apache_Spark-ef4444?style=for-the-badge&logo=apachespark&logoColor=fff8e7)
+![Flink](https://img.shields.io/badge/Apache_Flink-ef4444?style=for-the-badge&logo=apacheflink&logoColor=fff8e7)
+![Kafka](https://img.shields.io/badge/Apache_Kafka-ef4444?style=for-the-badge&logo=apachekafka&logoColor=fff8e7)
+![Iceberg](https://img.shields.io/badge/Apache_Iceberg-ef4444?style=for-the-badge&logo=apache&logoColor=fff8e7)
+![dbt](https://img.shields.io/badge/dbt-ef4444?style=for-the-badge&logo=dbt&logoColor=fff8e7)
+![Airflow](https://img.shields.io/badge/Airflow-ef4444?style=for-the-badge&logo=apacheairflow&logoColor=fff8e7)
+
+**Stores & Cloud**
+
+![Snowflake](https://img.shields.io/badge/Snowflake-0891b2?style=for-the-badge&logo=snowflake&logoColor=fff8e7)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0891b2?style=for-the-badge&logo=postgresql&logoColor=fff8e7)
+![MongoDB](https://img.shields.io/badge/MongoDB-0891b2?style=for-the-badge&logo=mongodb&logoColor=fff8e7)
+![AWS](https://img.shields.io/badge/AWS-0891b2?style=for-the-badge&logo=amazonwebservices&logoColor=fff8e7)
+![Azure](https://img.shields.io/badge/Azure-0891b2?style=for-the-badge&logo=microsoftazure&logoColor=fff8e7)
+
+## 💰 the treasure map
 
 * **FleetCor Cross Sell Strategy** — credit risk scoring with PySpark, SQL Server, and Tableau.
-* **Port Authority Tunnels and Bridges Analytics** — forecasting with Python, Azure AutoML, and Power BI.
-* **auto-apply** — automation tooling for job applications.
+* **Port Authority Tunnels & Bridges Analytics** — forecasting with Python, Azure AutoML, and Power BI.
+* **auto-apply** — automation tooling that charts the job application seas for me.
 
-### Background
+## 🐚 the logbook
 
-* **Software Developer (Big Data)**, Jio Platforms Ltd. (2020 to 2024)
-* **B.Tech, Computer Engineering**, Mukesh Patel School of Technology Management
-* Publication: *Decision Support System for Sustaining Medical Resources Using Data Analytics*, IJIRT (2020)
+<div align="center">
 
-### Reach me
+![Sathvik's GitHub stats](https://github-readme-stats.vercel.app/api?username=redshift7&show_icons=true&hide_border=true&bg_color=0a1a2e&title_color=fbbf24&icon_color=4ecdc4&text_color=fff8e7&ring_color=ef4444)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=redshift7&layout=compact&hide_border=true&bg_color=0a1a2e&title_color=fbbf24&text_color=fff8e7)
 
-* LinkedIn: [linkedin.com/in/sathvikkasoju](https://linkedin.com/in/sathvikkasoju)
-* Email: sathvikkasoju@gmail.com
+</div>
+
+<div align="center">
+
+`yohoho~ thanks for stopping by ✦`
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:fbbf24,50:f59e0b,100:ef4444&height=120&section=footer)
+
+</div>
