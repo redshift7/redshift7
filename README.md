@@ -3,6 +3,8 @@
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:ef4444,50:f59e0b,100:fbbf24&height=220&section=header&text=Sathvik%20Kasoju&fontColor=fff8e7&fontSize=52&desc=I%20build%20real%20time%20data%20systems%20at%20scale&descSize=18&descAlignY=60&fontAlignY=38)
 
+<img src="assets/sathvik-fullbody.png" alt="Sathvik mascot in a straw hat, waving" width="190" />
+
 `✦ Open to new adventures ✦`
 
 [![Website](https://img.shields.io/badge/sathvikkasoju.com-0a1a2e?style=for-the-badge&logo=safari&logoColor=fbbf24)](https://sathvikkasoju.com)
