@@ -3,7 +3,7 @@
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:ef4444,50:f59e0b,100:fbbf24&height=220&section=header&text=Sathvik%20Kasoju&fontColor=fff8e7&fontSize=52&desc=I%20build%20real%20time%20data%20systems%20at%20scale&descSize=18&descAlignY=60&fontAlignY=38)
 
-<img src="assets/sathvik-fullbody.png" alt="Sathvik mascot in a straw hat, waving" width="190" />
+<img src="assets/header-mascot.png" alt="Sathvik mascot in a straw hat, waving" width="220" />
 
 `✦ Open to new adventures ✦`
 
